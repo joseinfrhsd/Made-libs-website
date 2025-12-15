@@ -1,3 +1,56 @@
-.container{
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
     background-image:url(/img/background.JPG);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin:10px;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+.text-center{
+color:  rgb(255, 0, 106);
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.col-4{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.Name{
+    color: rgb(255, 0, 0);
+}
+.Adjective{
+    color: rgb(255, 115, 0);
+}
+.Food{
+    color: rgb(189, 192, 0);
+}
+.place{
+    color: rgb(62, 231, 62);
+}
+.plural{
+    color: blue;
+}
+.verb{
+    color: indigo;
+}
+.number{
+    color: rgb(230, 104, 230);
+}
+.noise{
+    color: rgb(200, 121, 211);
+}
+.btn-primary{
+    background-color: rgb(210, 255, 47);
+    color: black;
 }
